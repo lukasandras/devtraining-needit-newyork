@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="528" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#CD5C5C;33:#F08080;66:#FA8072;90:#FFA07A,target_field=target" label="% complete" max_length="15" name="complete" type="percent_complete"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
