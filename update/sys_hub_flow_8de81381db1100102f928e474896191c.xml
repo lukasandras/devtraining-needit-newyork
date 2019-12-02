@@ -11,7 +11,7 @@
         <description>Steps to approve and fulfill NeedIt requests.</description>
         <internal_name>needit_fulfillment</internal_name>
         <label_cache>[{"name":"14aac609-714e-4f83-bb34-9d0a781584da.Table","label":"3.2.1.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"14aac609-714e-4f83-bb34-9d0a781584da.Record","label":"3.2.1.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"7e99e555-8882-4d9a-85cc-0e50dd3776a3.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"7e99e555-8882-4d9a-85cc-0e50dd3776a3.Record","label":"1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"f4a24d32-95e8-4b04-a6dd-97839577f8c6.Table","label":"3.2.1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f4a24d32-95e8-4b04-a6dd-97839577f8c6.Record","label":"3.2.1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"222b508d-8f0f-4af4-a1f4-c4b88302677f.answer","label":"3.2➛Assignee Category Record","reference":"x_58872_needit_assignee_category","reference_display":"Assignee Category","type":"reference","base_type":"reference"},{"name":"40811d7e-1a0c-4c6d-a6cb-996701e63551.table_name","label":"4.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"40811d7e-1a0c-4c6d-a6cb-996701e63551.record","label":"4.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"bcb3c86b-fdc0-4546-a11b-d8b24bf3258b.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"bcb3c86b-fdc0-4546-a11b-d8b24bf3258b.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"f411064d-9ecf-4a68-8000-febce7f51dcf.email","label":"3.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"8ec1dc6a-bf21-4cef-bd3e-8b7036118594.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"1b64ce2f-5c4e-4418-9bff-6e604f338671.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"1b64ce2f-5c4e-4418-9bff-6e604f338671.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"bcb3c86b-fdc0-4546-a11b-d8b24bf3258b.record.u_request_type","label":"3.1➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"bcb3c86b-fdc0-4546-a11b-d8b24bf3258b.record.u_what_needed","label":"3.1➛NeedIt Record➛What needed","reference":"","reference_display":"What needed","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_what_needed"},{"name":"bcb3c86b-fdc0-4546-a11b-d8b24bf3258b.record.priority","label":"3.1➛NeedIt Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"priority"},{"name":"bcb3c86b-fdc0-4546-a11b-d8b24bf3258b.record.u_when_needed","label":"3.1➛NeedIt Record➛When needed (u_when_needed)","reference":"","reference_display":"When needed (u_when_needed)","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"5109f9f4-38b2-425b-9e4a-4cf399de0aa8.Record","label":"3.2.4.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"5109f9f4-38b2-425b-9e4a-4cf399de0aa8.Table","label":"3.2.4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
-        <latest_snapshot>ea215415dbd100102f928e474896193e</latest_snapshot>
+        <latest_snapshot>0858ef87db5500102f928e4748961979</latest_snapshot>
         <master_snapshot>ea215415dbd100102f928e474896193e</master_snapshot>
         <name>NeedIt Fulfillment</name>
         <outputs/>
@@ -72,7 +72,7 @@
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
         <comment>Create High Priority Legal request NeedIt Task - In the field values, the option "NeedIt" is missing</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>3.2.1.1</order>
@@ -81,10 +81,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-25 09:36:09</sys_created_on>
         <sys_id>07d2cfcadb5100102f928e474896194c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>14aac609-714e-4f83-bb34-9d0a781584da</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=07d2cfcadb5100102f928e474896194c"/>
@@ -133,7 +133,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>2</order>
@@ -142,10 +142,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 13:37:33</sys_created_on>
         <sys_id>0a5dd411db1500102f928e474896195a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>8ec1dc6a-bf21-4cef-bd3e-8b7036118594</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a5dd411db1500102f928e474896195a"/>
@@ -560,7 +560,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update NeedIt State to Approved</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>3.1</order>
@@ -569,10 +569,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 13:41:29</sys_created_on>
         <sys_id>2b3e5451db1500102f928e47489619c2</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>bcb3c86b-fdc0-4546-a11b-d8b24bf3258b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2b3e5451db1500102f928e47489619c2"/>
@@ -834,7 +834,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update NeedIt State to Closed Complete</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>4.1</order>
@@ -843,10 +843,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 13:41:29</sys_created_on>
         <sys_id>673e5451db1500102f928e47489619ca</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:20</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>40811d7e-1a0c-4c6d-a6cb-996701e63551</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=673e5451db1500102f928e47489619ca"/>
@@ -1026,7 +1026,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Set State to Awaiting Approval.</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>1</order>
@@ -1035,10 +1035,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 08:42:25</sys_created_on>
         <sys_id>76c953c1db1100102f928e474896192d</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>1b64ce2f-5c4e-4418-9bff-6e604f338671</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=76c953c1db1100102f928e474896192d"/>
@@ -1585,7 +1585,7 @@
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
         <comment>Create High Priority Legal request NeedIt Task - In the field values, the option "NeedIt" is missing</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>3.2.1.1</order>
@@ -1594,10 +1594,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-25 09:36:09</sys_created_on>
         <sys_id>07d2cfcadb5100102f928e474896194c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>14aac609-714e-4f83-bb34-9d0a781584da</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=07d2cfcadb5100102f928e474896194c"/>
@@ -1646,7 +1646,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>2</order>
@@ -1655,10 +1655,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 13:37:33</sys_created_on>
         <sys_id>0a5dd411db1500102f928e474896195a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>8ec1dc6a-bf21-4cef-bd3e-8b7036118594</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a5dd411db1500102f928e474896195a"/>
@@ -1925,7 +1925,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update NeedIt State to Approved</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>3.1</order>
@@ -1934,10 +1934,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 13:41:29</sys_created_on>
         <sys_id>2b3e5451db1500102f928e47489619c2</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>bcb3c86b-fdc0-4546-a11b-d8b24bf3258b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2b3e5451db1500102f928e47489619c2"/>
@@ -2076,7 +2076,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update NeedIt State to Closed Complete</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>4.1</order>
@@ -2085,10 +2085,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 13:41:29</sys_created_on>
         <sys_id>673e5451db1500102f928e47489619ca</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:20</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>40811d7e-1a0c-4c6d-a6cb-996701e63551</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=673e5451db1500102f928e47489619ca"/>
@@ -2227,7 +2227,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Set State to Awaiting Approval.</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">8de81381db1100102f928e474896191c</flow>
         <order>1</order>
@@ -2236,10 +2236,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 08:42:25</sys_created_on>
         <sys_id>76c953c1db1100102f928e474896192d</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 09:42:19</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-28 14:53:45</sys_updated_on>
         <ui_id>1b64ce2f-5c4e-4418-9bff-6e604f338671</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=76c953c1db1100102f928e474896192d"/>
@@ -2921,7 +2921,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f2215415dbd100102f928e474896197c","name":"plan"}}</plan>
         <plan_id>8de81381db1100102f928e474896191c</plan_id>
-        <snapshot>ea215415dbd100102f928e474896193e</snapshot>
+        <snapshot>0858ef87db5500102f928e4748961979</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-22 12:44:21</sys_created_on>
         <sys_domain>global</sys_domain>
